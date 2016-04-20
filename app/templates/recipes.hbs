@@ -1,0 +1,4 @@
+{{#each model as |recipe|}}
+	<li>{{#link-to "recipes.recipe" recipe}} {{recipe.cuisine}} {{/link-to}}</li>
+{{/each}}
+{{outlet}}
